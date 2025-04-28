@@ -28,3 +28,16 @@ replay_pid*
 
 # Exclude mac os specific files
 .DS_Store
+
+# macOS disk image files
+*.dmg
+
+# Windows disk image files
+*.iso
+
+# Linux disk image files
+*.img
+
+# Build artifacts
+*/build/
+*/build/*
